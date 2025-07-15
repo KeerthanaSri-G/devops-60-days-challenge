@@ -1,0 +1,10 @@
+   48  sudo apt update
+   49  sudo apt install git
+   50  git --version
+   51  git config --global user.name "Keerthana Sri"
+   52  git config --global user.email "g.keerthanasri@gmail.com"
+   53  mkdir devops_challenge_day_1
+   54  cd devops_challenge_day_1
+   55  ls -alt ~ > challenge1.txt
+   56  touch day1.txt
+   57  history | tail -n 10 > challenge2.txt
